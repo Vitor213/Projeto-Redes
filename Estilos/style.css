@@ -8,7 +8,7 @@
 
 html, body {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     background-color: black;
 }
 body{
@@ -35,4 +35,20 @@ iframe#tela{
     left: 22px;
     height: 471px; ;
     width: 267px;
+}
+section#Redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.979);
+    box-sizing: border-box;
+}
+section#Redes-sociais{
+    text-align: right;
+}
+section#Redes-sociais img:hover{
+    border: 2px solid white ;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .3s, border .1s;
 }
